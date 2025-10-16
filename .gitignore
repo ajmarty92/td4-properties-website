@@ -1,0 +1,13 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*_backup.*
+*.bak
+
+# Test files
+test.html
+
+# Logs
+*.log
