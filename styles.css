@@ -1005,6 +1005,14 @@ html {
         border-radius: 5px;
     }
     
+    /* Make Book Now button more prominent in mobile menu */
+    .nav-menu #book-now-btn {
+        margin-top: 15px !important;
+        margin-bottom: 5px !important;
+        background: var(--accent-color) !important;
+        font-weight: 700 !important;
+    }
+    
     /* Prevent body scroll when menu is open */
     body.menu-open {
         overflow: hidden;
