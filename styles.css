@@ -1012,8 +1012,13 @@ html {
         background: var(--accent-color) !important;
         font-weight: 700 !important;
     }
-    
-    /* Prevent body scroll when menu is open */
+       
+       /* Ensure Inquire button has proper spacing and isn\'t cut off by mobile navbars */
+       .nav-menu .inquire-button {
+           margin-bottom: 60px !important;
+       }
+       
+/* Prevent body scroll when menu is open */
     body.menu-open {
         overflow: hidden;
     }
