@@ -1113,7 +1113,7 @@ html {
 }
 
 /* Tablet improvements */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1280px) {
     .carousel-slide {
         height: 500px;
     }
@@ -1548,7 +1548,7 @@ html {
 }
 
 /* Tablet */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1280px) {
     .carousel-container {
         height: 500px;
     }
@@ -2066,7 +2066,7 @@ html {
    ======================================== */
 
 /* Aggressive optimization for tablets in desktop view (769px-1024px) */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1280px) {
     /* Reduce overall navbar padding - APPLY COMPACT SETTINGS TO ALL TABLETS */
     .nav-container {
         padding: 0.4rem 0.5rem !important;
