@@ -2059,27 +2059,27 @@ html {
 
 /* Aggressive optimization for tablets in desktop view (769px-1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
-    /* Reduce overall navbar padding */
+    /* Reduce overall navbar padding - APPLY COMPACT SETTINGS TO ALL TABLETS */
     .nav-container {
         padding: 0.4rem 0.5rem !important;
         gap: 0.3rem;
     }
     
-    /* Compact logo */
+    /* Compact logo - same as portrait */
     .logo {
-        font-size: 0.95rem !important;
+        font-size: 0.85rem !important;
         margin-right: 0.3rem !important;
     }
     
-    /* Compact property toggle */
+    /* Compact property toggle - same as portrait */
     .property-toggle-container {
         margin-right: 0.3rem !important;
     }
     
     .property-toggle {
-        font-size: 0.8rem !important;
-        padding: 4px 22px 4px 6px !important;
-        max-width: 140px;
+        font-size: 0.75rem !important;
+        padding: 3px 20px 3px 5px !important;
+        max-width: 120px;
     }
     
     /* Hide tooltip to save space */
@@ -2087,7 +2087,7 @@ html {
         display: none !important;
     }
     
-    /* Compact navigation menu */
+    /* Compact navigation menu - same as portrait */
     .nav-menu {
         gap: 0.2rem !important;
     }
@@ -2097,38 +2097,15 @@ html {
     }
     
     .nav-menu a {
-        padding: 0.3rem 0.35rem !important;
-        font-size: 0.7rem !important;
-    }
-    
-    /* Compact CTA buttons */
-    .nav-menu .cta-button {
-        padding: 0.35rem 0.5rem !important;
-        font-size: 0.7rem !important;
-        white-space: nowrap;
-        border-radius: 4px;
-    }
-}
-
-/* Extra compact for portrait mode on tablets (narrower screens) */
-@media (min-width: 769px) and (max-width: 900px) {
-    .logo {
-        font-size: 0.85rem !important;
-    }
-    
-    .property-toggle {
-        font-size: 0.75rem !important;
-        padding: 3px 20px 3px 5px !important;
-        max-width: 120px;
-    }
-    
-    .nav-menu a {
         padding: 0.25rem 0.3rem !important;
         font-size: 0.65rem !important;
     }
     
+    /* Compact CTA buttons - same as portrait */
     .nav-menu .cta-button {
         padding: 0.3rem 0.4rem !important;
         font-size: 0.65rem !important;
+        white-space: nowrap;
+        border-radius: 4px;
     }
 }
